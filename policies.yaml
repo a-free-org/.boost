@@ -1,0 +1,10 @@
+policies:
+  - name: Block all no aws
+    description: Block all but without aws rules.
+    location:
+      custom: scripts/block-all.rego
+    disabled_rules_file: rules/no-aws.yaml
+  - name: Block high cloud issues
+    location:
+      registry_module: boost-category
+    config_file: config/cloud-resources-block.yaml

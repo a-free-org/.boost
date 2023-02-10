@@ -1,0 +1,9 @@
+organizations:
+  a-free-org:
+    repositories:
+      repo1:
+        labels:
+          api:
+            policy: Block all no aws
+          stream:
+            policy: Block high cloud issues

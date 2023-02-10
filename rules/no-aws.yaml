@@ -1,0 +1,7 @@
+default:
+  - aws-athena-encryption-off
+  - aws-network-https-off
+  - aws-network-insecure-tls
+  - aws-resource-unencrypted-at-rest
+  - aws-resource-unencrypted-in-transit
+  - aws-s3-unencrypted-at-rest
