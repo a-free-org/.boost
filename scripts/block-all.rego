@@ -1,8 +1,13 @@
 package main
 
-finding_action(finding, analysis) = act {
-    act := "block"
+finding_actions(finding, analysis) = act {
+	act := "block"
 }
+
 analysis_actions(analysis) = act {
-    act := ["block"]
+	act := ["block"]
+}
+
+is_violation(finding) = res {
+	res := true
 }
