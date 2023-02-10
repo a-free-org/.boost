@@ -1,6 +1,6 @@
 package main
 
-finding_actions(finding, analysis) = act {
+finding_actions(finding) = act {
 	act := "block"
 }
 
