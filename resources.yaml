@@ -7,3 +7,5 @@ organizations:
             policy: Block all no aws
           stream:
             policy: Block high cloud issues
+  A-neat-company:
+    policy: Block all no aws
