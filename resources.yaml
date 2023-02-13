@@ -1,3 +1,10 @@
 organizations:
   A-neat-company:
     policy: Block all no aws
+    repositories:
+      test1:
+        labels:
+          super-label:
+            policy: Block all no aws
+          demo-label:
+            policy: Block high cloud issues
