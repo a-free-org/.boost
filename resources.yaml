@@ -2,6 +2,10 @@ organizations:
   A-neat-company:
     policy: Block all no aws
     repositories:
+      boost-test:
+        labels:
+          my-super-label:
+            policy: Block all no aws
       test1:
         labels:
           super-label:
