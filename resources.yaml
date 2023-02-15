@@ -10,5 +10,5 @@ organizations:
         labels:
           super-label:
             policy: Block all no aws
-          demo-label:
+          test-my-label:
             policy: Block high cloud issues
