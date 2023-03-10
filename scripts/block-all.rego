@@ -4,7 +4,7 @@ finding_actions(finding, analysis, something) = act {
 	act := "block"
 }
 
-analysis_actions(analysis) = act {
+analysis_actions(analysis, related_analyses) = act {
 	act := ["block"]
 }
 
