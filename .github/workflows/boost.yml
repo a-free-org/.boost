@@ -26,6 +26,7 @@ jobs:
         uses: boostsecurityio/boostsec-scanner-github@v4
         with:
           api_token: ${{ secrets.BOOST_API_TOKEN }}
+          api_endpoint: https://api.dev.boostsec.io
           registry_module: ${{fromJSON(github.event.inputs.scan_params).registry_module}}
         env:
           BOOST_GIT_HEAD: ${{fromJSON(github.event.inputs.scan_params).head_sha}}
@@ -50,6 +51,7 @@ jobs:
         uses: boostsecurityio/boostsec-scanner-github@v4
         with:
           api_token: ${{ secrets.BOOST_API_TOKEN }}
+          api_endpoint: https://api.dev.boostsec.io
           registry_module: ${{fromJSON(github.event.inputs.scan_params).registry_module}}
         env:
           BOOST_GIT_HEAD: ${{fromJSON(github.event.inputs.scan_params).head_sha}}
@@ -77,6 +79,7 @@ jobs:
         uses: boostsecurityio/boostsec-scanner-github@v4
         with:
           api_token: ${{ secrets.BOOST_API_TOKEN }}
+          api_endpoint: https://api.dev.boostsec.io
           registry_module: ${{fromJSON(github.event.inputs.scan_params).registry_module}}
         env:
           BOOST_GIT_HEAD: ${{fromJSON(github.event.inputs.scan_params).head_sha}}
@@ -102,6 +105,7 @@ jobs:
         uses: boostsecurityio/boostsec-scanner-github@v4
         with:
           api_token: ${{ secrets.BOOST_API_TOKEN }}
+          api_endpoint: https://api.dev.boostsec.io
           registry_module: ${{fromJSON(github.event.inputs.scan_params).registry_module}}
         env:
           BOOST_GIT_HEAD: ${{fromJSON(github.event.inputs.scan_params).head_sha}}
