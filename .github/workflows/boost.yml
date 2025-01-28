@@ -32,6 +32,7 @@ jobs:
           scan_label: ${{fromJSON(github.event.inputs.scan_params).scan_label}}
           scan_path: ${{fromJSON(github.event.inputs.scan_params).scan_path}}
           api_endpoint: https://api.dev.boostsec.io
+          scan_timeout: 12
         env:
           BOOST_GIT_HEAD: ${{fromJSON(github.event.inputs.scan_params).head_sha}}
           BOOST_GIT_BASE: ${{fromJSON(github.event.inputs.scan_params).base_sha}}
@@ -61,6 +62,7 @@ jobs:
           scan_label: ${{fromJSON(github.event.inputs.scan_params).scan_label}}
           scan_path: ${{fromJSON(github.event.inputs.scan_params).scan_path}}
           api_endpoint: https://api.dev.boostsec.io
+          scan_timeout: 12
         env:
           BOOST_GIT_HEAD: ${{fromJSON(github.event.inputs.scan_params).head_sha}}
           BOOST_GIT_BASE: ${{fromJSON(github.event.inputs.scan_params).base_sha}}
@@ -93,6 +95,7 @@ jobs:
           scan_label: ${{fromJSON(github.event.inputs.scan_params).scan_label}}
           scan_path: ${{fromJSON(github.event.inputs.scan_params).scan_path}}
           api_endpoint: https://api.dev.boostsec.io
+          scan_timeout: 12
         env:
           BOOST_GIT_HEAD: ${{fromJSON(github.event.inputs.scan_params).head_sha}}
           BOOST_GIT_BASE: ${{fromJSON(github.event.inputs.scan_params).base_sha}}
@@ -123,6 +126,7 @@ jobs:
           scan_label: ${{fromJSON(github.event.inputs.scan_params).scan_label}}
           scan_path: ${{fromJSON(github.event.inputs.scan_params).scan_path}}
           api_endpoint: https://api.dev.boostsec.io
+          scan_timeout: 12
         env:
           BOOST_GIT_HEAD: ${{fromJSON(github.event.inputs.scan_params).head_sha}}
           BOOST_GIT_BASE: ${{fromJSON(github.event.inputs.scan_params).base_sha}}
@@ -154,6 +158,7 @@ jobs:
           scan_label: ${{fromJSON(github.event.inputs.scan_params).scan_label}}
           scan_path: ${{fromJSON(github.event.inputs.scan_params).scan_path}}
           api_endpoint: https://api.dev.boostsec.io
+          scan_timeout: 12
         env:
           BOOST_GIT_HEAD: ${{fromJSON(github.event.inputs.scan_params).head_sha}}
           BOOST_GIT_BASE: ${{fromJSON(github.event.inputs.scan_params).base_sha}}
