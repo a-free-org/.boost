@@ -19,7 +19,8 @@ jobs:
       - name: ${{fromJSON(github.event.inputs.scan_params).trigger_id}}
         uses: boostsecurityio/boostsec-scanner-github@v4
         with:
-          cli_version: 1.0.0.rc301
+          cli_version: 1.0.0.rc302
+          log_level: DEBUG
           api_token: ${{secrets.BOOST_API_TOKEN}}
           trigger_id: ${{fromJSON(github.event.inputs.scan_params).trigger_id}}
           api_endpoint: https://api.dev.boostsec.io
